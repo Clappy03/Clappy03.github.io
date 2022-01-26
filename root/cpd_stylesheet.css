@@ -1,0 +1,92 @@
+body 
+{
+background-color: #3580e2;
+font-family: 'Trebuchet MS', sans-serif;
+overflow-x:hidden;
+}
+
+.text{
+	color:#e0ffff;
+	padding-left:10px;
+	padding:10px;	
+}
+.text ul{
+	padding-left: 35%;
+}
+
+#image1{
+	padding-left:25%;
+	width: 50%;
+	height: 50%;
+}
+#NTU-shield{
+	width:7.5%;
+	height:7.5%;
+	float:left;
+	padding:10px;
+}
+#bjj{
+	width:50%;
+	height:50%;
+	padding-left:25%;
+}
+table {
+  font-family:'Trebuchet MS', sans-serif;
+  color:black;
+  background-color:white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 8px;
+}
+.footer{
+	position:absolute;
+	width:100%;
+	padding:10px;
+	text-align:center;
+	background-color:pink;
+
+	
+}
+.footer a{
+	text-decoration:none;
+	color:#e0ffff;
+	display:block;
+}
+@media only screen and (min-width: 668px){
+.navigation_bar{
+	overflow:hidden;
+	background-color:#000036;
+}
+
+.navigation_bar a{
+	display:inline-table;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	color:white;
+}
+.navigation_bar a:hover{
+	background-color: white;
+}
+}
+@media only screen and (max-width: 668px){
+.navigation_bar{
+	overflow:hidden;
+	background-color:#000036;
+}
+
+.navigation_bar a{
+	display:block;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	color:white;
+}
+}
+	
+	
